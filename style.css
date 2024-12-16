@@ -3,13 +3,13 @@
     border: border-box;
 }
 .navbar{
-    background-color: #596475 ;
-    height: 70px;
+  background-image: url(img_back_G.webp);
+  height: 70px;
     border: 2px solid rgb(88, 88, 207);
+    box-shadow: 0px 0px 5px 0px black;
 }
 body{
-    background-color: #1f2232 ;
-}
+  background-image: url(img_back_G.webp);}
 .logo{
     font-family: "Anton SC", sans-serif;
     font-size: 60px;
@@ -103,7 +103,7 @@ button{
 }
 .foot{
     border: 2px solid black;
-    height: 40px;
+    height: 55px;
     text-align: left;
     margin-top: 30px;
     background-color: #596475;
