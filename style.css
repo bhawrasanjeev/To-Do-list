@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+.navbar{
+    background-color: #596475 ;
+    height: 70px;
+    border: 2px solid rgb(88, 88, 207);
+}
+body{
+    background-color: #1f2232 ;
+}
+.logo{
+    font-family: "Anton SC", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    height: 60px;
+}
+.box{
+    height: 500px;
+    background-color: #bc9ec1;
+    width: 400px;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 5px 5px #000000;
+
+}
+
+
+input{
+    font-family: "Anton SC", Arial, Helvetica, sans-serif;
+    height: 20px;
+    width: 300px;
+    background-color: #fde8e9;
+    border: 2px solid black;
+    border-radius: 23px;
+    text-align: center;
+    margin-bottom: 10px;
+    &:hover{
+        box-shadow: 0px 0px 3px 3px #000000;
+
+    }
+
+}
+button{
+    border-radius: 25px;
+    margin-top: 30px;
+    background-color: e3bac6;
+    cursor: pointer;
+    font-family: "Anton SC", sans-serif;
+
+    &:hover{
+        box-shadow: 0px 0px 3px 3px #000000;
+
+    }
+}
+.texts ul{
+    position: relative;
+    font-family: "Anton SC", Arial, Helvetica, sans-serif;
+    height: 20px;
+    width: 290px;
+    background-color: #fde8e9;
+    border: 2px solid black;
+    margin: 0px 40px 20px 30px;
+    border-radius: 23px;
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+
+}
+.texts ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    &:hover{
+
+        box-shadow: 0px 0px 2px 2px #000000;
+
+    }
+}
+.texts ul IC{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    &:hover{
+
+        box-shadow: 0px 0px 2px 2px #000000;
+
+    }
+    
+}
+.task_log{
+    margin: auto;
+    font-family: "Anton SC", sans-serif;
+    background-color:aqua ;
+    width: 300px;
+    border-radius: 25px;
+    font-size: 40px;
+    box-shadow: 0px 0px 4px 4px #000000;
+
+}
+.foot{
+    border: 2px solid black;
+    height: 40px;
+    text-align: left;
+    margin-top: 30px;
+    background-color: #596475;
+}
+
+.completed {
+    background-color: #28a745;
+    color: green;
+    text-decoration: line-through;
+}
+
+.completed i {
+    display: inline-block;
+    color: red;
+}
+
+.completed IC {
+    color: green;
+}
